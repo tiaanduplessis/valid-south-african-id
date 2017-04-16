@@ -1,0 +1,49 @@
+{
+  "name": "valid-south-african-id",
+  "version": "1.0.0",
+  "description": "Perform regex and checksum match to check if given number string valid South African ID",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiaanduplessis/valid-south-african-id.git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/valid-south-african-id",
+  "bugs": "https://github.com/tiaanduplessis/valid-south-african-id/issues",
+  "author": {
+    "name": "Tiaan",
+    "email": "tiaanduplessis@hotmail.com",
+    "url": "tiaan.beer"
+  },
+  "bin": {
+    "valid-sa-id": "cli.js"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "pretest": "npm run lint:fix",
+    "test": "jest --env=node",
+    "test:watch": "npm test -- --watch",
+    "coverage": "npm test -- --coverage",
+    "lint": "standard --verbose",
+    "lint:fix": "standard --fix --verbose",
+    "precommit": "npm test"
+  },
+  "keywords": [
+    "id",
+    "regex",
+    "checksum",
+    "match",
+    "south-africa",
+    "south-african",
+    "sa",
+    "valid-south-african-id"
+  ],
+  "dependencies": {
+    "mod10-check-digit": "^1.0.0"
+  },
+  "devDependencies": {
+    "husky": "^0.13.3",
+    "jest": "^19.0.2",
+    "standard": "^10.0.1"
+  }
+}
