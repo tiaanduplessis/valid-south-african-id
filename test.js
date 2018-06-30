@@ -1,4 +1,3 @@
-/* eslint-env jest */
 'use strict'
 
 const validSouthAfricanId = require('./')
