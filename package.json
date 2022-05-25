@@ -1,6 +1,6 @@
 {
   "name": "valid-south-african-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🇿🇦 Perform regex and checksum match to check if given number string is a valid South African ID",
   "license": "MIT",
   "main": "index.js",
@@ -20,8 +20,8 @@
     "lint": "standard --fix"
   },
   "engines": {
-		"node": ">=14"
-	},
+    "node": ">=14"
+  },
   "files": [
     "index.js",
     "cli.js"
